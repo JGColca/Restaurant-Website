@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 480px)" href="mobile.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="desktop.css" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+</head>
+
+<body>
+
+
+    <div id="container">
+        <div class="dropdown" id="menuNav">
+            <button class="dropbtn">Menu Navigation</button>
+            <div class="dropdown-content">
+                <a href="#appetizers">Appetizers</a>
+                <a href="#entrees">Entrees</a>
+                <a href="#desserts">Desserts</a>
+            </div>
+        </div>
+        <h1>Menu</h1>
+    <label>Choose a Course:
+        <select id="courseSelector" name="course">
+            <option value="">Select One …</option>
+            <option value="appetizers">Appetizers</option>
+            <option value="entrees">Entrees</option>
+            <option value="desserts">Desserts</option>
+        </select>
+    </label>
+        <ul id="menuList">
+            <li class="starters">
+                <a name="appetizers"></a>
+                <ul id="starterList">
+                    <label>
+                        <h1>Appetizers</h1>
+                    </label>
+                </ul>
+            </li>
+            <li class="meals">
+                <a name="entrees"></a>
+                <ul id="entreeList">
+                    <label>
+                        <h1>Entrees</h1>
+                    </label>
+                </ul>
+            </li>
+            <li class="ends">
+                <a name="desserts"></a>
+                <ul id="dessertList">
+                    <label>
+                        <h1>Desserts</h1>
+                    </label>
+                </ul>
+            </li>
+        </ul>
+        </div>
+
+
+</body>
+
+
+<script src="menuitems.js"></script>
+<script src="menu.js"></script>
+
+</html>

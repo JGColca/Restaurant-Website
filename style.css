@@ -1,0 +1,104 @@
+#menuList {
+    list-style: none;
+}
+.menuItem {
+    display: flex;
+}
+.menuItem img {
+    width: auto; 
+    height: auto;
+}
+.imageDescription {
+    display: flex;
+    align-items: center;
+}
+
+.imageDescription p {
+    margin-left: 100px;
+}
+
+.itemDescription {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    max-width: 1000px;
+}
+
+.itemDescription h2 {
+
+    margin-left: 50px;
+}
+
+.description {
+
+    margin-left: 75px;
+    margin-right: 20px;
+    /* set width in other css files */
+}
+
+li {
+    margin: 20px;
+}
+
+#starterList h1 {
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    margin-right: 55px;
+}
+
+#entreeList h1 {
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    margin-right: 55px;
+}
+
+#dessertList h1 {
+    border-bottom: 2px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    margin-right: 55px;
+    
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#menuNav{
+    position: fixed;
+    left: 80%;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
