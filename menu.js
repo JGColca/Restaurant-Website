@@ -57,23 +57,28 @@ function changeEventHandler() {
     if (this.value === "appetizers") {
         
         
-        entreeList.parentNode.removeChild(entreeList)
-        dessertList.parentNode.removeChild(dessertList)
+        entreeList.style.display = "none"
+        dessertList.style.display = "none"
+        starterList.style.display = ""
     }
     else if (this.value === "entrees") {
 
         
-        starterList.parentNode.removeChild(starterList)
-        dessertList.parentNode.removeChild(dessertList)
+        starterList.style.display = "none"
+        dessertList.style.display = "none"
+        entreeList.style.display = ""
     }
     
     else if (this.value === "desserts") {
         
-        starterList.parentNode.removeChild(starterList)
-        entreeList.parentNode.removeChild(entreeList)
+        starterList.style.display = "none"
+        entreeList.style.display = "none"
+        dessertList.style.display = ""
     }
     else {
-
+        dessertList.style.display = ""
+        entreeList.style.display = ""
+        starterList.style.display = ""
     }
 }
 
