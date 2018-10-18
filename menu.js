@@ -2,7 +2,7 @@ let starterList = document.getElementById("starterList")
 let entreeList = document.getElementById("entreeList")
 let dessertList = document.getElementById("dessertList")
 let menuList = document.getElementById("menuList")
-let courseSelector= document.getElementById("courseSelector").value
+
 
 
 for (let index = 0; index < menuItems.length; index++) {
